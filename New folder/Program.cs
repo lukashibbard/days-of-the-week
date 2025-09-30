@@ -7,14 +7,15 @@ Console.WriteLine("5) friday");
 Console.WriteLine("6) saterday");
 Console.WriteLine("7) sunday");
 Console.WriteLine();
-
+// this asks and say the different days of the week
 Console.WriteLine(">>");
 
 string day = Console.ReadLine()+"";
 Console.WriteLine();
-
+// this takes the answer
 switch (day)
 {
+        //these are the different cases
     case "monday":
         day = $"i hate mondays";
         break;
@@ -38,4 +39,5 @@ switch (day)
         day = $"i dont wanna get up tommorow";
         break;
 }
+
 Console.WriteLine(day);
